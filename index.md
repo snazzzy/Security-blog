@@ -4,6 +4,8 @@ Ethnography, the study of interactions and reactions of different social culture
 
 You cant just be a “tape recorder”, a ethnographer must go more in depth. Subjectivity is an important aspect while being an ethnographer. If data is just collected, it is too hard to correctly identify what stemmed from where. It is noted that engineers tend to leave subjectivity out of ethnography.  
 
+...updating...
+
 Dourish, Paul. “Implications for Design.” CHI, 2006, pp. 541-550.
 
 ### April,17, 2020
