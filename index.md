@@ -1,37 +1,5 @@
 ## Usable Security Blog
+This week, we read an academic paper called Norman DesignX sociotechnical systems. This paper showed how designers now face the challenge of designing complex sociotechnical systems. It explains that designers need to be a part of the implementation stage. This is because not everyone processes and understands the same way that others do. This paper also explained the concept of release products using different methodologies. The hacker methodology means that the designer should know the entirety of their products impact on everyone and everything before releasing the final product. In a perfect world, I may agree with that methodology. However, in many times over the engineer or designer will release a product that was used entirely in a different way than it was intended for. The keyword being intended. No one can accurately foresee the use case of their product. Even if they could, designing their product around every possible use case will result in something that is bad at everything. For example, if GM just made one type of vehicle. If GM tried to make a car that is comfortable but sporty, small and economical, Burly with a lot of torque for pulling, Low to the ground for handling while being able to go off road. That will result in one really bad vehicle, but it takes into account every possible use case that someone might use it for. That just wont work. Therefore, GM makes economical cars, comfy cars, sporty cars, trucks, etc. Designing your product needs to be for a specific use case. 
 
-You can use the [editor on GitHub](https://github.com/snazzzy/snazzy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+One interesting topic that was brought up, was the fact that people tend to engineer systems and services by breaking them down into components. Components that are usually responsible for 1 process, and usually don’t have more than a linear relation with the other components of the system. Because of this, ideas or possible designs that don’t meet most peoples thinking process are thrown out. I have a hard time materializing that statement. I don’t know how to quantify which ideas were amazing but had to be thrown out because it didn’t fit our way of thinking. The issue with this argument is for something to be widely used and adopted, it needs to be understood by many on how it operates. Think of vehicles or open source programs, if only a few people knew how to work on cars because they were so complex, no one would have them. If only a few people could work on a open source program, that program wouldn’t exist or it would be very barebones. Complex products and services need to be made of components; they need to be modular so everyone can understand. Systems also must be continuously updated to keep up with new technology, or it will be unusable. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-qwerqwerqwerqwer
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/snazzzy/snazzy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
