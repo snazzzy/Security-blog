@@ -4,7 +4,7 @@ Ethnography, the study of interactions and reactions of different social culture
 
 You cant just be a “tape recorder”, a ethnographer must go more in depth. Subjectivity is an important aspect while being an ethnographer. If data is just collected, it is too hard to correctly identify what stemmed from where. It is noted that engineers tend to leave subjectivity out of ethnography.  
 
-Many tech companies today employ lots of ethnographers, as they want to perform product research, and find new areas of markets. As a future security professional, I want to take the techniques of a ethnographer and apply it to usable security. A way to judge new security policies implemented in the work place. 
+Many tech companies today employ lots of ethnographers, as they want to perform product research, and find new areas of markets. As a future security professional, I want to take the techniques of a ethnographer and apply it to usable security. A way to judge new security policies implemented in the work place. It may already be apparent if there is a poor policy implemented in the workplace as many employees will complain. However, ethnography can uncover problems that a design can fix.
 
 Dourish, Paul. “Implications for Design.” CHI, 2006, pp. 541-550.
 
