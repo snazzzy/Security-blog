@@ -1,5 +1,5 @@
 ## Usable Security Blog
-## May 19
+## May 19, 2020
 
 Immigration in South America seems extremely messed up compared to the united states. Using ID cards to separate the population based on the tone of their skin. Sometimes people would get reclassified. This had insane consequences as it heavily changed people’s lives. The South American government used an weird classification method. It was first used to classify animals. Basically, different genres. This was a very old approach, and they applied it to people. I cannot believe that they didn’t allow different classifications of people to marry. Applying race based on the color of a persons skin isn’t even scientifically accurate. The article showed an example of a boxer being re classified from white to a different classification right before a big match. He lost everything right before the match. Was the cauterization used to oppress people? In relation to the US census, I think that it is used for demographic understanding. I think the main point of this article is that we need to be careful of placing labels on people. When you put labels on people, it can be dehumanizing. Another key point of that this article said was that applying labels to groups of people may disenfranchise other groups. 
 
