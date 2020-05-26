@@ -1,4 +1,20 @@
 ## Usable Security Blog
+## May 25, 2020
+
+Data Void
+There are positives and negatives to everything. Youtuber sponsored videos. Racoon earbud reviews are terrible, yet your favorite creator swears up and down that they are amazing.I do not feel qualified to have this discussion, because I have no idea how a search engine works underneath the hood.  I don’t know the best ways to apply SEO to a website. Google may serve users incorrect information or “lead users down dark rabbit holes”, but I think google as a whole works pretty well! If we went back to the dark ages, they would burn people at the stake for being a witch. The spread of misinformation will always exist, I don’t see a perfect scenario, because technologies always leads back to the user, which are people. And people act in self-interest.
+ I think there should be pressure on companies like google to continue perfecting their search algorithms, but somewhere people will find some information that they will read. They will have to decide for themselves if it is true, or perform more research. In some instances like the Sutherland springs Texas situation, it is hard to know what information is correct. 
+Even if there was a perfect search engine that could funnel out all mis information and silence groups behind the “crisis actors”, Would that be encroaching the right to free speech? 
+
+Data craft:
+Meta data is important for defining anything on large platforms with lots of data. Brian Babin twitter account example. 3 of the accounts are almost undistinguishable, there are  fakes, and just by looking at the meta data it is to hard to tell the difference. 
+
+Government accounts inactive for 6 months will be closed. They are then open for resubmittion. Example showed that they got hold of @USEmbassyRiyadh account. 
+This article showed how meta data is great for classifying user posts, but can be abused. 
+This is hard to relate to as I don’t have a twitter or Instagram. I don’t use Facebook very much if at all. I think the example of twitter accounts being compromised, and fake accounts being mixed in with real ones is issue that twitter needs to fix, as people rely on twitter for news  and credible information. Other platforms may have pseudonymity, such as YouTube. A YouTube account has its reputation biased on its content. A twitter account does not provide any pseudonymity, as the account is based on a real person.
+ Meta data is involved with literally any social platform. The concept of meta data is personal data is the definition of the entire big data market and targeted advertisements. Which this stems a much larger conversation if target adds should even exists. 
+
+
 ## May 19, 2020
 
 Biometrics dehumanizes people. Essentially reduces a complex human to data points. Essentially this is authentication. Can we rely on biometric data? As we become more reliant on technology, they technology may be flawed, therefore our decisions are flawed. Can biometric tech be used as an extra step in our current ways of identification. Resulting in a more streamlined process. The argument that biometrics dehumanize people is interesting to me. I personally don’t find it an issue if me as a person is summed up into data points. I am not saying I agree with widespread use of biometric identification. In a perfect world if biometric data was used responsibly and had no technical flaws, I don’t have an issue being summed up into data points. I don’t that to be my identity, I don’t think of passwords as my identity. I don’t think of my social security number as my identity. I am interested 
