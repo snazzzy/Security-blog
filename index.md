@@ -1,4 +1,199 @@
 ## Usable Security Blog
+## June 11, 2020
+Zero Trust Networks 
+
+Usable Security – Case Study 
+
+Section 1: Trust  
+
+Trust is not only defined as the absence of risk and uncertainty, but is also defined as a complex human response to situations that contain this risk and uncertainty. To establish trust there are a few requirements that must be fulfilled. The first requirement is vulnerability. When people are vulnerable, trust inherently exists. When establishing trust both parties are vulnerable to the betrayal of the other party. The second requirement to establish trust is optimism. In a trusting relationship there needs to be some level of optimism that the other party will have a motive for action on their behalf. The third and last requirement needed to establish trust is competency which is the assumption that individuals will possess the relevant skills or ability needed to perform an action. 1 
+
+The two general types of trust are (human-to-human) interpersonal trust and (human-to-system) system trust. An interpersonal trust relationship develops over a period of time when an expectation of trustworthy behavior is fulfilled between two individuals. However, it is important to note that interpersonal trust relationships are highly dependent on the specific situations in different social interactions. A system trust relationship on the other hand does not develop over time or depend heavily on different social interactions. A system trust relationship contains a complex layered arrangement of systems and networks. These arrangements carry different layers of trust. This can be seen in protocols that often presume there is a reliable and trustworthy relationship between these networks.2 
+
+There are two requirements needed to establish trust in a network environment. The first requirement is secure end-to-end communication. The second requirement is that security is created with no expense to survivability. Security should not be confused with privacy. Security enables the control of digital information while privacy requires that an individual be able to control their personal digital information.  Survivability is the idea that any network should be able to degrade gracefully rather than failing critically. Survivability can be established with distribution and graceful degradation. Graceful degradation means that when one section or device of a network fails this does not affect the rest of the network. The actions of one person does not alter the access of others. 3 
+
+The three-dimension model of trust in a system or network is based on risks rather than user perception of risk and require privacy, security, and reliability. Privacy is based around vulnerability and optimism. Security must be based around motivation and competence. While reliability is there result of the belief in integrity and competency of a party. Trust in a network is mostly influenced by the humans, organizations and governments that control them rather than the network itself. 4 
+
+ 
+
+Section 2: Issues with trust in networks 
+
+Now with an understanding of trust and how it relates to network environments, we can examine the issues that trust brings with it to networks. 
+
+One of the most important aspects of a trust relationship are the origins of the commitment and its context.5 Often to complete some general “task”, there usually must be some trust agreement between the parties involved but this can be easily undermined when the ends of the agreement are just for completing said task. For example, in the event of a new hire, the new employee will likely agree to any password policy just because they want the job, so they begin a trust relationship without necessarily fulfilling the original agreement. In some situations, no matter how the original commitment is formed, there is no ability to build trust.  
+
+Overreliance on assurances is another large issue with trust.6 Assurances can range from contract or user agreements to social norms. This brings problems when we blindly accept people’s trust based on social agreements or contracts because we see only the agreements instead of what’s happening in reality. The social contract view provides us with an example of a male employer who is “extra” nice to female co-workers to make it seem like he's treating employees equally.7 Though this still results in sexist behavior and he fails to build trust because the employer is trying to take advantage of our social contract.  
+
+A third problem surrounding trust is inferring trust. Inferred trust can be both implicit and explicit (signals/cues vs. ratings/reviews) although in either case they can lead to deception, exploitation & misinterpretation. Any of these inferred results can be extremely damaging in a network setting since it will turn into a significant vulnerability that an attacker could exploit. If you were to assume every review on Amazon was a legitimate user, you could very easily be led into a disappointing purchase of something that you had inferred would be something else. 
+
+The last issue is the idea of an “All-or-Nothing" trust systems. In traditional network environments it is very common to design the network to have a secure perimeter around your assets. The idea of a castle surrounded by a moat. This has the inevitable failing of once that perimeter is broken all the assets are then accessible. This clearly causes huge security risk in that in the event your network gets comprised, everything gets comprised.  
+
+All these issues present massive vulnerabilities and with constantly evolving infrastructure, we see organization re-thinking their trust models. This is the basis to why there is a push to remove trust completely from corporate environments. 
+
+ 
+
+Section 3: Examination of Zero Trust principles and design application 
+
+ 
+
+Microsoft principles of Zero Trust: 
+
+Verify explicitly. Always authenticate and authorize based on all available data points, 
+
+including user identity, location, device health, service or workload, data classification, 
+
+and anomalies. 
+
+ 
+
+Use least privileged access. Limit user access with Just In Time and Just Enough 
+
+Access (JIT/JEA), risk based adaptive polices, and data protection to protect both data 
+
+and productivity. 
+
+ 
+
+Assume breach. Minimize blast radius for breaches and prevent lateral movement by 
+
+segmenting access by network, user, devices, and application awareness. Verify all sessions 
+
+are encrypted end to end. Use analytics to get visibility, drive threat detection, and 
+
+improve defenses. 
+
+Microsoft tools to drive implementation: 
+
+Strong authentication. Ensure strong multi factor authentication and session risk detection as 
+
+the backbone of your access strategy to minimize the risk of identity compromise. 
+
+ 
+
+Policy based adaptive access. Define acceptable access policies for your resources and 
+
+enforce them with a consistent security policy engine that provides both governance and 
+
+insight into variances. 
+
+ 
+
+Micro segmentation. Move beyond simple centralized network-based perimeter to 
+
+comprehensive and distributed segmentation using software defined micro perimeters. 
+
+ 
+
+Automation. Invest in automated alerting and remediation to reduce your mean time to 
+
+respond (MTTR) to attacks. 
+
+ 
+
+Intelligence and AI. Utilize cloud intelligence and all available signals to detect and respond to 
+
+access anomalies in real time. 
+
+ 
+
+Data classification and protection. Discover, classify, protect, and monitor sensitive data to 
+
+minimize exposure from malicious or accidental exfiltration. 
+
+ 
+
+WWU Zero Trust Principles: 
+
+Monitoring must be present throughout the network. 
+
+Constraining done by the policy agent must be dynamic and strict. 
+
+Direct trust relationships must be built between users and systems and the Trust Engine. 
+
+Trust cannot be inferred through any system or relationship. 
+
+The inner workings of the control plane must be opaque to the end-user. 
+
+The control plane should have redundancy with fall back controls as well as scalability. 
+
+-design 
+
+ 
+
+Section 4: Case Studies of Zero Trust: Google, Microsoft, and WWU Zero Trust 
+
+Zero Trust is a relatively new concept for protecting and securing networks, and as such large corporations with a wide attack surface are the primary developers of standards and best practices. The Zero Trust ideology was first introduced by Google under the name BeyondCorp which was a response to the Advanced Persistent Threat (APT) attack by China in 2009 codenamed Operation Aurora.8 Unlike the traditional perimeter security model, BeyondCorp dispels the notion of network segmentation as the primary mechanism for protecting sensitive resources. Instead, all applications are deployed to the public Internet, accessible through a user and device-centric authentication and authorization workflow.9  
+
+There are several novel systems Google employs for this authentication and authorization, namely the access proxy and the access control engine. Gaining access to a resource on the network begins with the access proxy which incorporates several well-established security solutions like Single-Sign On (SSO) and device certificates. When the user attempts to connect to the BeyondCorp network the access proxy negotiates the device certificate with a database of known managed device, then it will redirect the user to the SSO system. Once the device certificate is found and the user is properly authenticated the access control engine is the next step in the process. The access control engine confirms the following information: 
+
+The user is in the correct group to access the resource. 
+
+The user has a sufficient trust level. 
+
+The device is managed and in good standing. 
+
+The device has a sufficient trust level.  
+
+If all these checks pass then the user and device can access the resource, if any single one fails the request to access the resource is denied.10 
+
+Google BeyondCorp’s transparency has allowed many organizations to capitalize on this new ideology of security, notably Microsoft who has published their own papers detailing their principles of Zero Trust. Microsoft keeps their specific implementation of Zero Trust opaque and instead opts to give out more general guidelines, standards and principles. Microsoft also offers a maturity model so that organizations can determine their own level of adoption of the Zero Trust ideology. The first level is a Traditional network security architecture consisting of: 
+
+On-premises identities with static rules and some SSO. 
+
+Limited visibility into devices, cloud environments and logins. 
+
+A flat network infrastructure.  
+
+The second level is Advanced which involves the following: 
+
+Hybrid identities are formed from multiple data sources fine-tuned access policies for access. 
+
+Devices are managed and registered in a database. 
+
+Networks are segmented and cloud environments are monitored. 
+
+User behavior analysis is implemented to proactively identify threats. 
+
+The third level is the Optimal implementation which includes: 
+
+Cloud identities with analytics and dynamic access to apps, networks and data. 
+
+Data access decisions governed by policy engine with encryption and tracking. 
+
+Trust has been removed from the network entirely with micro-perimeters and segmentation as well as encryption. 
+
+Automatic threat detection and response are implemented.11
+
+As shown above, Microsoft chooses to focus more heavily on policy to implement Zero Trust and forgoes the idea of an access control engine that Google implements  
+
+ 
+
+Bibliography 
+
+[1] McLeod, Carolyn, "Trust", The Stanford Encyclopedia of Philosophy (Fall 2015 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2015/entries/trust/>. 
+
+[2] Cheshire, Coye. (2011). Online Trust, Trustworthiness, or Assurance?. Daedalus. 140. 49-58. 10.1162/DAED_a_00114. 
+
+[3] Camp, L. Jean, Design for Trust. TRUST, REPUTATION AND SECURITY: THEORIES AND PRACTICE, Rino Falcone, ed., Springer-Verlang (Berlin), 2003. Available at SSRN: https://ssrn.com/abstract=627610 
+
+[4] Gilman, E., & Barth, D. (2017). Zero trust networks: building secure systems in untrusted networks. Sebastopol, CA: OReilly Media.  
+
+[5] Zero Trust Maturity Model. (n.d.). Retrieved June 10, 2020, from https://go.microsoft.com/fwlink/p/?LinkID=2109181&clcid=0x409&culture=en-us&country=US 
+
+[6] Ward, R., & Beyer, B. (2014). BeyondCorp: A New Approach to Enterprise Security. Retrieved June 10, 2020, from https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43231.pdf 
+
+[7] Dinkelman, S., Stuifbergen, J., Traner, J., & Anderson, S. (2020, June 3). WWU Zero Trust Networks. Retrieved June 10, 2020, from https://wwuzerotrust.com/Documentation/ 
+
+[8] Baier, A. C., 1986. “Trust and Antitrust,” Ethics, 96: 231–260.  
+
+[9] –––, 1991. “Trust and Its Vulnerabilities” and “Sustaining Trust,” Tanner Lectures on Human Values, Volume 13, Salt Lake City: University of Utah Press. 
+
+[10] –––, 1995. Moral Prejudices: Essays on Ethics, Cambridge, MA: Harvard University Press. 
+
+[11] –––, 2004. “Demoralization, Trust, and the Virtues,” in Calhoun (ed.) 2004. 
+
+[12] Run Zero Trust Security Like Google. (2018). Retrieved June 10, 2020, from https://www.beyondcorp.com/ 
+
 ## May 25, 2020
 
 Data Void
